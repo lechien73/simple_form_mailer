@@ -44,6 +44,10 @@ Then set line 16 as follows:
 $reCaptcha_version = 2;
 ```
 
+### Upload mail.php
+
+After you have made the necessary configuration changes to mail.php, save it and upload it to your web server.
+
 ### Setting up your form
 
 Your form needs to have its action set to mail.php, as follows:
@@ -51,6 +55,7 @@ Your form needs to have its action set to mail.php, as follows:
 ```
 <form action="/mail.php" method="post" name="Send">
 ```
+Change the action attribute to the correct path to mail.php
 
 You also need to have the following required hidden fields:
 ```
